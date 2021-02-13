@@ -1,0 +1,4 @@
+  1 set nu
+  2 set hlsearch
+  3 syntax on
+
