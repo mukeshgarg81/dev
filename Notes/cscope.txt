@@ -1,0 +1,24 @@
+
+
+
+1. Go to folder where you want to create data base. In my case I created cscope data base of SSNIC driver and C-model separately.
+	Ex: cd /home/pakteam/Mukesh/Sahil_Git/FPGA-Driver-Software/components/nic/linux/driver
+2. Create cscope data base
+	cscope -Rb
+3. Create ctags data base	
+	ctags -R *
+4. run cscope 
+	cscope -p10 -d
+5. There are different search oprions in cscope commnad display.
+		seach by function, search by string, search by file etc.
+6. To move inside the function	
+			CTRL + }
+7. To move backword 
+			CTRL + T
+8. To move start of the function
+		{ + {
+
+
+You can defien cscope editor by adding below in ~/.bashrc
+	export CSCOPE_EDITOR=/bin/vim
+
