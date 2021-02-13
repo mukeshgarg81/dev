@@ -3,6 +3,9 @@ lspci commands:-
 1. lspci
 2. lspci -s 81:00.0 -v
 3. lspci -s 81:00.0 -vvv
+4. lscpi -s 81:00.0 -x
+5. lscpi -s 81:00.0 -xx
+6. lscpi -s 81:00.0 -xxx
 
 
 
