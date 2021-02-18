@@ -1,0 +1,2 @@
+1. od -tx1z -Ax /proc/bus/pci/81/00.0		//read and print in hex form file
+
