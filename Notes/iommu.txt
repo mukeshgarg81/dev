@@ -1,0 +1,4 @@
+virsh nodedev-list pci
+virsh nodedev-dumpxml pci_0000_80_05_4
+virsh nodedev-detach pci_0000_05_00_0
+
